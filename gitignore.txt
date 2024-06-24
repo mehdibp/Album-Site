@@ -1,4 +1,4 @@
-work/
+work/img/
 *.m4v
 *.mp4
 *.avi

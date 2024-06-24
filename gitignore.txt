@@ -1,7 +1,9 @@
-work/img/
 *.m4v
 *.mp4
 *.avi
+
+work/img/
+work/img/28/28.m4v
 
 .idea
 # Byte-compiled / optimized / DLL files

@@ -1,6 +1,7 @@
 *.m4v
 *.mp4
 *.avi
+*.pdf
 
 work/img/
 work/img/*

@@ -1,4 +1,4 @@
-let globalVariableID = { ID: '0' };
+// let globalVariableID = { ID: '0' };
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([[405], {
 
     

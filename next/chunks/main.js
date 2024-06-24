@@ -2,27 +2,17 @@
     932: function(e, t) {
         "use strict";
         function r(e, t, r, n, a, o, i) {
-            try {
-                var l = e[o](i)
-                  , s = l.value
-            } catch (e) {
-                r(e);
-                return
-            }
+            try { var l = e[o](i) , s = l.value }
+            catch (e) { r(e); return }
             l.done ? t(s) : Promise.resolve(s).then(n, a)
         }
         function n(e) {
             return function() {
-                var t = this
-                  , n = arguments;
+                var t = this , n = arguments;
                 return new Promise(function(a, o) {
                     var i = e.apply(t, n);
-                    function l(e) {
-                        r(i, a, o, l, s, "next", e)
-                    }
-                    function s(e) {
-                        r(i, a, o, l, s, "throw", e)
-                    }
+                    function l(e) { r(i, a, o, l, s,  "next", e) }
+                    function s(e) { r(i, a, o, l, s, "throw", e) }
                     l(void 0)
                 }
                 )
@@ -61,15 +51,11 @@
     2648: function(e, t) {
         "use strict";
         function r(e) {
-            return e && e.__esModule ? e : {
-                default: e
-            }
+            return e && e.__esModule ? e : { default: e }
         }
         Object.defineProperty(t, "Z", {
             enumerable: !0,
-            get: function() {
-                return r
-            }
+            get: function() { return r }
         })
     },
     1598: function(e, t) {
@@ -77,12 +63,8 @@
         function r(e) {
             if ("function" != typeof WeakMap)
                 return null;
-            var t = new WeakMap
-              , n = new WeakMap;
-            return (r = function(e) {
-                return e ? n : t
-            }
-            )(e)
+            var t = new WeakMap , n = new WeakMap;
+            return (r = function(e) { return e ? n : t } )(e)
         }
         function n(e, t) {
             if (!t && e && e.__esModule)
@@ -437,7 +419,7 @@
                 window.__NEXT_DATA__ = a,
                 h = a.defaultLocale;
                 let e = a.assetPrefix || "";
-                if (r.p = "".concat(e, "/_next/"),
+                if (r.p = "".concat(e, "/next/"),
                 C.setConfig({
                     serverRuntimeConfig: {},
                     publicRuntimeConfig: a.runtimeConfig || {}
@@ -490,7 +472,7 @@
                 value: {
                     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
                     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-                    path: "/_next/image",
+                    path: "/next/image",
                     loader: "default",
                     dangerouslyAllowSVG: !1,
                     unoptimized: !1
@@ -504,8 +486,7 @@
                 router: n
             });
             return _.default.createElement(X, null, V(e, r))
-        }
-        ;
+        };
         function $(e) {
             let {App: t, err: l} = e;
             return console.error(l),
@@ -867,7 +848,7 @@
                     throw Error('Route name should start with a "/", got "'.concat(m, '"'));
                 return (e=>{
                     let t = i.default(c.removeTrailingSlash(l.addLocale(e, n)), ".json");
-                    return a.addBasePath("/_next/data/".concat(this.buildId).concat(t).concat(p), !0)
+                    return a.addBasePath("/next/data/".concat(this.buildId).concat(t).concat(p), !0)
                 }
                 )(e.skipInterpolation ? h : s.isDynamicRoute(m) ? o.interpolateAs(d, h, f).result : m)
             }
@@ -937,21 +918,6 @@
                   , a = new Blob([new URLSearchParams(n).toString()],{
                     type: "application/x-www-form-urlencoded"
                 })
-                  , i = "https://vitals.vercel-insights.com/v1/vitals"
-                  , l = navigator.sendBeacon && navigator.sendBeacon.bind(navigator);
-                function r() {
-                    fetch(i, {
-                        body: a,
-                        method: "POST",
-                        credentials: "omit",
-                        keepalive: !0
-                    }).catch(console.error)
-                }
-                try {
-                    l(i, a) || r()
-                } catch (e) {
-                    r()
-                }
             }
         }
         var s = e=>{
@@ -1312,7 +1278,7 @@
             return c().then(r=>{
                 if (!(t in r))
                     throw l(Error("Failed to lookup route: ".concat(t)));
-                let a = r[t].map(t=>e + "/_next/" + encodeURI(t));
+                let a = r[t].map(t=>e + "/next/" + encodeURI(t));
                 return {
                     scripts: a.filter(e=>e.endsWith(".js")).map(e=>n.__unsafeCreateTrustedScriptURL(e)),
                     css: a.filter(e=>e.endsWith(".css"))
@@ -1993,7 +1959,7 @@
         t.imageConfigDefault = {
             deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
             imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-            path: "/_next/image",
+            path: "/next/image",
             loader: "default",
             loaderFile: "",
             domains: [],
@@ -3370,7 +3336,7 @@
         t.formatNextPathnameInfo = function(e) {
             let t = i.addLocale(e.pathname, e.locale, e.buildId ? void 0 : e.defaultLocale, e.ignorePrefix);
             return (e.buildId || !e.trailingSlash) && (t = n.removeTrailingSlash(t)),
-            e.buildId && (t = o.addPathSuffix(a.addPathPrefix(t, "/_next/data/".concat(e.buildId)), "/" === e.pathname ? "index.json" : ".json")),
+            e.buildId && (t = o.addPathSuffix(a.addPathPrefix(t, "/next/data/".concat(e.buildId)), "/" === e.pathname ? "index.json" : ".json")),
             t = a.addPathPrefix(t, e.basePath),
             !e.buildId && e.trailingSlash ? t.endsWith("/") ? t : o.addPathSuffix(t, "/") : n.removeTrailingSlash(t)
         }
@@ -3442,8 +3408,8 @@
             };
             if (i && o.pathHasPrefix(u.pathname, i) && (u.pathname = a.removePathPrefix(u.pathname, i),
             u.basePath = i),
-            !0 === t.parseData && u.pathname.startsWith("/_next/data/") && u.pathname.endsWith(".json")) {
-                let e = u.pathname.replace(/^\/_next\/data\//, "").replace(/\.json$/, "").split("/")
+            !0 === t.parseData && u.pathname.startsWith("/next/data/") && u.pathname.endsWith(".json")) {
+                let e = u.pathname.replace(/^\/next\/data\//, "").replace(/\.json$/, "").split("/")
                   , t = e[0];
                 u.pathname = "index" !== e[1] ? "/".concat(e.slice(1).join("/")) : "/",
                 u.buildId = t
@@ -4526,10 +4492,15 @@
         }
     },
     2431: function() {}
-}, function(e) {
+
+}, 
+
+
+function(e) {
     e.O(0, [774], function() {
         return e(e.s = 1783)
     }),
     _N_E = e.O()
 }
+
 ]);

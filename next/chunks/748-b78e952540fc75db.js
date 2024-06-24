@@ -126,9 +126,7 @@
                     s.ZP.to(e.mesh.material.uniforms.uClickProcess, .6, {
                         value: 1,
                         ease: a.Aq.easeOut,
-                        onComplete: ()=>{
-                            k.push("/work/" + u[f].id)
-                        }
+                        onComplete: ()=>{ k.push("http://127.0.0.1:5500/work/" + u[f].id + ".html") }
                     }),
                     s.ZP.to(".top_info .pr_top_section", .2, {
                         y: -100,
@@ -201,61 +199,39 @@
                 window.innerWidth > 900) {
                     w(!0),
                     v(e);
-                    let t = s.ZP.timeline({
-                        delay: .4
-                    });
-                    t.to(".thunmail_img", .2, {
-                        opacity: 1
-                    })
+                    let t = s.ZP.timeline({ delay: .4 });
+                    t.to(".thunmail_img", .2, { opacity: 1 })
                 } else
-                    (0,
-                    c.i)("/work/" + t[e].id, P);
+                    (0, c.i)("http://127.0.0.1:5500/work/" + t[e].id + ".html", P);
                 n && n.scrollTo(0)
-            }
-            ;
-            return (0,
-            r.jsx)(r.Fragment, {
-                children: (0,
-                r.jsxs)("div", {
+            };
+
+            return (0, r.jsx)(r.Fragment, {
+                children: (0, r.jsxs)("div", {
                     className: "archive_section",
-                    children: [(0,
-                    r.jsxs)("div", {
+                    children: [(0, r.jsxs)("div", {
                         className: "work_count",
                         children: ["Total ", t.length]
-                    }), (0,
-                    r.jsx)("div", {
+                    }), (0, r.jsx)("div", {
                         className: "work_archive_items " + (p ? "click_block" : ""),
-                        onMouseLeave: ()=>{
-                            a(null)
-                        }
-                        ,
-                        children: t.map((e,t)=>(0,
-                        r.jsxs)("div", {
+                        onMouseLeave: ()=>{ a(null) },
+                        children: t.map((e,t)=>(0, r.jsxs)("div", {
                             className: "wc_item " + (P.asPath.indexOf(e.id) >= 0 ? "active" : ""),
-                            onMouseOver: ()=>{
-                                a(t)
-                            }
-                            ,
-                            onClick: ()=>{
-                                b(t)
-                            }
-                            ,
+                            onMouseOver: ()=>{ a(t) } ,
+                            onClick: ()=>{ b(t) } ,
                             children: [(0,
                             r.jsx)("div", {
                                 className: "wc_num",
                                 children: "(" + (t < 9 ? "0" + (t + 1) : t + 1) + ")"
-                            }), (0,
-                            r.jsx)("div", {
+                            }), (0, r.jsx)("div", {
                                 className: "wc_title",
                                 children: e.data.pr_title
-                            }), (0,
-                            r.jsx)("div", {
+                            }), (0, r.jsx)("div", {
                                 className: "wc_client",
-                                children: e.data.client
+                                children: e.data.time
                             })]
                         }, t))
-                    }), !h && (0,
-                    r.jsx)(u, {
+                    }), !h && (0, r.jsx)(u, {
                         workItems: t,
                         hoverItemIndex: i,
                         wkClickIndex: g
@@ -264,6 +240,7 @@
             })
         }
     },
+
     2329: function(e, t) {
         !function(e) {
             function t(e, t) {

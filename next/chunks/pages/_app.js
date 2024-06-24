@@ -12,95 +12,38 @@
               e.__proto__ = t
           }
           n.d(t, {
-              $i: function() {
-                  return e_
-              },
-              Aq: function() {
-                  return nA
-              },
-              DY: function() {
-                  return eb
-              },
-              EA: function() {
-                  return nR
-              },
-              Fc: function() {
-                  return C
-              },
-              Fo: function() {
-                  return nc
-              },
-              GN: function() {
-                  return tT
-              },
-              JV: function() {
-                  return nu
-              },
-              Ks: function() {
-                  return ni
-              },
-              Ok: function() {
-                  return eT
-              },
-              Pr: function() {
-                  return eR
-              },
-              S5: function() {
-                  return nt
-              },
-              SI: function() {
-                  return Z
-              },
-              UI: function() {
-                  return tf
-              },
-              Wy: function() {
-                  return te
-              },
-              Yp: function() {
-                  return nx
-              },
-              bJ: function() {
-                  return nE
-              },
-              bQ: function() {
-                  return J
-              },
-              cy: function() {
-                  return ex
-              },
-              d4: function() {
-                  return X
-              },
-              fS: function() {
-                  return eS
-              },
-              if: function() {
-                  return tQ
-              },
-              kr: function() {
-                  return tR
-              },
-              l1: function() {
-                  return tz
-              },
-              lC: function() {
-                  return eo
-              },
-              m2: function() {
-                  return j
-              },
-              p8: function() {
-                  return nS
-              },
-              r9: function() {
-                  return U
-              },
-              xr: function() {
-                  return tA
-              }
+              $i: function() { return e_ },
+              Aq: function() { return nA },
+              DY: function() { return eb },
+              EA: function() { return nR },
+              Fc: function() { return C },
+              Fo: function() { return nc },
+              GN: function() { return tT },
+              JV: function() { return nu },
+              Ks: function() { return ni },
+              Ok: function() { return eT },
+              Pr: function() { return eR },
+              S5: function() { return nt },
+              SI: function() { return Z },
+              UI: function() { return tf },
+              Wy: function() { return te },
+              Yp: function() { return nx },
+              bJ: function() { return nE },
+              bQ: function() { return J },
+              cy: function() { return ex },
+              d4: function() { return X },
+              fS: function() { return eS },
+              if: function() { return tQ },
+              kr: function() { return tR },
+              l1: function() { return tz },
+              lC: function() { return eo },
+              m2: function() { return j },
+              p8: function() { return nS },
+              r9: function() { return U },
+              xr: function() { return tA  }
           });
-          /*!
+
+/*!
    * GSAP 3.11.4
    * https://greensock.com
    *
@@ -109,6 +52,7 @@
    * Club GreenSock members, the agreement issued with that membership.
    * @author: Jack Doyle, jack@greensock.com
   */
+ 
           var o, a, s, l, u, c, f, h, d, p, _, m, v, g, y, w, b, T, S, R, A, x, E, k, N, M, C = {
               autoSleep: 120,
               force3D: "auto",
@@ -121,33 +65,24 @@
               overwrite: !1,
               delay: 0
           }, O = 2 * Math.PI, P = O / 4, D = 0, V = Math.sqrt, I = Math.cos, B = Math.sin, U = function(e) {
-              return "string" == typeof e
-          }, z = function(e) {
-              return "function" == typeof e
-          }, F = function(e) {
-              return "number" == typeof e
-          }, j = function(e) {
-              return void 0 === e
-          }, W = function(e) {
-              return "object" == typeof e
-          }, $ = function(e) {
-              return !1 !== e
-          }, G = function() {
-              return "undefined" != typeof window
-          }, q = function(e) {
-              return z(e) || U(e)
-          }, Y = "function" == typeof ArrayBuffer && ArrayBuffer.isView || function() {}
+              return "string" == typeof e }, 
+          z = function(e) { return "function" == typeof e }, 
+          F = function(e) { return "number" == typeof e }, 
+          j = function(e) { return void 0 === e }, 
+          W = function(e) { return "object" == typeof e }, 
+          $ = function(e) { return !1 !== e }, 
+          G = function()  { return "undefined" != typeof window }, 
+          q = function(e) { return z(e) || U(e) }, 
+
+          Y = "function" == typeof ArrayBuffer && ArrayBuffer.isView || function() {}
           , H = Array.isArray, K = /(?:-?\.?\d|\.)+/gi, Z = /[-+=.]*\d+[.e\-+]*\d*[e\-+]*\d*/g, X = /[-+=.]*\d+[.e-]*\d*[a-z%]*/g, Q = /[-+=.]*\d+\.?\d*(?:e-|e\+)?\d*/gi, J = /[+-]=-?[.\d]+/, ee = /[^,'"\[\]\s]+/gi, et = /^[+\-=e\s\d]*\d+[.\d]*([a-z]*|%)\s*$/i, en = {}, er = {}, ei = function(e) {
-              return (er = eO(e, en)) && nS
-          }, eo = function(e, t) {
-              return console.warn("Invalid property", e, "set to", t, "Missing plugin? gsap.registerPlugin()")
-          }, ea = function(e, t) {
-              return !t && console.warn(e)
-          }, es = function(e, t) {
-              return e && (en[e] = t) && er && (er[e] = t) || en
-          }, el = function() {
-              return 0
-          }, eu = {
+              return (er = eO(e, en)) && nS }, 
+          eo = function(e, t) { return console.warn("Invalid property", e, "set to", t, "Missing plugin? gsap.registerPlugin()") }, 
+          ea = function(e, t) { return !t && console.warn(e) }, 
+          es = function(e, t) { return e && (en[e] = t) && er && (er[e] = t) || en }, 
+          el = function() { return 0 }, 
+          
+          eu = {
               suppressEvents: !0,
               isStart: !0,
               kill: !1
@@ -842,6 +777,7 @@
               ,
               i
           };
+          
           eS("Linear,Quad,Cubic,Quart,Quint,Strong", function(e, t) {
               var n = t < 5 ? t + 1 : t;
               tV(e + ",Power" + (n - 1), t ? function(e) {
@@ -3340,9 +3276,7 @@
                       children: [(0,
                       r.jsxs)("div", {
                           className: "ft_info_item",
-                          children: ["Integrated Marketing", (0,
-                          r.jsx)("br", {}), "Communication ", (0,
-                          r.jsx)("br", {}), "Agency"]
+                          children: ["Physics school album"]
                       }), (0,
                       r.jsxs)("div", {
                           className: "ft_info_item",
@@ -3468,6 +3402,7 @@
               })
           }
       },
+
       9577: function(e, t, n) {
           "use strict";
           n.d(t, {
@@ -3498,11 +3433,10 @@
               default: !1
           })
       },
+
       9749: function(e, t, n) {
           "use strict";
-          Object.defineProperty(t, "__esModule", {
-              value: !0
-          }),
+          Object.defineProperty(t, "__esModule", { value: !0 }),
           t.default = void 0;
           var r = n(6495).Z
             , i = n(2648).Z
@@ -3515,20 +3449,24 @@
             , f = n(8730);
           n(7238);
           var h = i(n(9824));
+
           let d = {
               deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
               imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-              path: "/_next/image",
+              path: "img/",          // Address of Images (before edit: "next/")
               loader: "default",
               dangerouslyAllowSVG: !1,
               unoptimized: !1
           };
+
           function p(e) {
               return void 0 !== e.default
           }
+
           function _(e) {
               return "number" == typeof e || void 0 === e ? e : "string" == typeof e && /^[0-9]+$/.test(e) ? parseInt(e, 10) : NaN
           }
+
           function m(e, t, n, i, o, a, s) {
               if (!e || e["data-loaded-src"] === t)
                   return;
@@ -3625,8 +3563,7 @@
               } else {
                   let e = F;
                   F = t=>{
-                      let {config: n} = t
-                        , r = a(t, ["config"]);
+                      let {config: n} = t , r = a(t, ["config"]);
                       return e(r)
                   }
               }
@@ -3677,8 +3614,7 @@
                   }
               }
               let q = !w && ("lazy" === b || void 0 === b);
-              ((m = "string" == typeof m ? m : W).startsWith("data:") || m.startsWith("blob:")) && (y = !0,
-              q = !1),
+              ((m = "string" == typeof m ? m : W).startsWith("data:") || m.startsWith("blob:")) && (y = !0, q = !1),
               U.unoptimized && (y = !0),
               j && m.endsWith(".svg") && !U.dangerouslyAllowSVG && (y = !0);
               let[Y,H] = s.useState(!1)
@@ -3717,6 +3653,7 @@
                           srcSet: void 0,
                           sizes: void 0
                       };
+                      
                   let {widths: l, kind: u} = function(e, t, n) {
                       let {deviceSizes: r, allSizes: i} = e;
                       if (n) {
@@ -3763,7 +3700,8 @@
                           width: l[c]
                       })
                   }
-              }({
+              }
+              ({
                   config: U,
                   src: m,
                   unoptimized: y,
@@ -3826,6 +3764,7 @@
           Object.assign(t.default, t),
           e.exports = t.default)
       },
+
       2675: function(e, t) {
           "use strict";
           Object.defineProperty(t, "__esModule", {
@@ -3839,31 +3778,28 @@
               return a && s ? "%3Csvg xmlns='http%3A//www.w3.org/2000/svg' viewBox='0 0 ".concat(a, " ").concat(s, "'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='").concat(r && i ? "1" : "20", "'/%3E").concat(l, "%3C/filter%3E%3Cimage preserveAspectRatio='none' filter='url(%23b)' x='0' y='0' height='100%25' width='100%25' href='").concat(o, "'/%3E%3C/svg%3E") : "%3Csvg xmlns='http%3A//www.w3.org/2000/svg'%3E%3Cimage style='filter:blur(20px)' x='0' y='0' height='100%25' width='100%25' href='".concat(o, "'/%3E%3C/svg%3E")
           }
       },
+        
       9824: function(e, t) {
           "use strict";
           function n(e) {
               let {config: t, src: n, width: r, quality: i} = e;
-              return "".concat(t.path, "?url=").concat(encodeURIComponent(n), "&w=").concat(r, "&q=").concat(i || 75)
+            //   return "".concat(t.path, "?url=").concat(encodeURIComponent(n), "&w=").concat(r, "&q=").concat(i || 75)
+              return "".concat(t.path).concat((n))
           }
-          Object.defineProperty(t, "__esModule", {
-              value: !0
-          }),
+          Object.defineProperty(t, "__esModule", { value: !0 }),
           t.default = void 0,
           n.__next_img_default = !0,
           t.default = n
       },
+
       9151: function(e, t, n) {
           "use strict";
           n.r(t),
-          n.d(t, {
-              default: function() {
-                  return k
-              }
-          });
-          var r = n(5893);
+          n.d(t, { default: function() { return k } });
           n(8136),
           n(1447);
-          var i = n(7294)
+          var r = n(5893)
+            , i = n(7294)
             , o = n(9008)
             , a = n.n(o)
             , s = n(4587)
@@ -3871,76 +3807,45 @@
             , u = n(10)
             , c = n(5675)
             , f = n.n(c);
+
+
           function h(e) {
-              let t = (0,
-              l.useRouter)()
-                , [n,o] = (0,
-              i.useState)(!1);
-              return (0,
-              i.useEffect)(()=>{
-                  o(!1)
-              }
-              , [t]),
-              (0,
-              r.jsxs)("header", {
+              let t = (0, l.useRouter) () , [n,o] = (0, i.useState)(!1);
+              return  (0, i.useEffect) (()=>{ o(!1) }, [t]),
+
+              (0, r.jsxs)("header", {
                   className: "header " + ("/" !== t.pathname || n ? "" : "introHeader"),
-                  children: [(0,
-                  r.jsxs)("div", {
+                  children: [
+                    (0, r.jsxs)("div", {
                       className: "logo_section",
-                      onClick: ()=>{
-                          (0,
-                          s.i)("/", t)
-                      }
-                      ,
-                      children: [(0,
-                      r.jsx)(f(), {
-                          width: 35,
-                          height: 30,
-                          className: "logo_white",
-                          style: {
-                              height: "auto"
-                          },
-                          alt: "logo",
-                          src: "/img/logo_w.svg"
-                      }), (0,
-                      r.jsx)(f(), {
-                          width: 35,
-                          height: 30,
-                          className: "logo_black",
-                          style: {
-                              height: "auto"
-                          },
-                          alt: "logo",
-                          src: "/img/logo.svg"
+                      onClick: ()=>{ (0, s.i)("/", t) },
+                      children: [(0, r.jsx)(f(), {
+                        width: 35,
+                        height: 30,
+                        className: "logo_white",
+                        style: { height: "auto" },
+                        alt: "logo",
+                        src: "logo.png"
                       })]
-                  }), (0,
-                  r.jsxs)("nav", {
+                  }), 
+
+                  (0, r.jsxs)("nav", {
                       className: "menu_section",
-                      children: [(0,
-                      r.jsx)("button", {
-                          className: "/about" === t.pathname ? "active" : "",
-                          onClick: ()=>{
-                              (0,
-                              s.i)("/about", t)
-                          }
-                          ,
-                          children: "aBout"
-                      }), (0,
-                      r.jsx)("button", {
-                          onClick: ()=>{
-                              (0,
-                              u.W)("@@ACTIVE_ACHIVE"),
-                              o(!n)
-                          }
-                          ,
-                          children: n ? "Close" : "aRchive"
+                      children: [
+                        // (0, r.jsx)("button", {
+                        //   className: "/about" === t.pathname ? "active" : "",
+                        //   onClick: ()=>{ (0, s.i)("/about", t) },
+                        //   children: "aBout" }), 
+                        (0, r.jsx)("button", { 
+                            onClick: ()=>{ (0, u.W)("@@ACTIVE_ACHIVE"), o(!n) },
+                            children: n ? "Close" : "Archive"
                       })]
                   })]
               })
           }
+
           n(723);
-          var d = n(9577)
-            , p = n(4480);
+          var d = n(9577) , p = n(4480);
           let _ = e=>{
               let {children: t} = e;
               (0,
@@ -3948,21 +3853,17 @@
               let[n,o] = (0,
               p.FV)(d.NA);
               return (0,
-              i.useLayoutEffect)(()=>{
-                  window.history.scrollRestoration = "manual"
-              }
-              , []),
-              (0,
-              r.jsxs)(r.Fragment, {
+              i.useLayoutEffect)(()=>{ window.history.scrollRestoration = "manual" } , []),
+              (0, r.jsxs)(r.Fragment, {
                   children: [(0,
                   r.jsxs)(a(), {
                       children: [(0,
                       r.jsx)("title", {
-                          children: "aL"
+                          children: "Physics School Album"
                       }), (0,
                       r.jsx)("meta", {
                           name: "description",
-                          content: "Integrated Marketing Communication Agency"
+                          content: "Physics school album"
                       }), (0,
                       r.jsx)("meta", {
                           name: "viewport",
@@ -3978,7 +3879,7 @@
                       }), (0,
                       r.jsx)("meta", {
                           property: "og:description",
-                          content: "Integrated Marketing Communication Agency"
+                          content: "Physics school album"
                       }), (0,
                       r.jsx)("meta", {
                           property: "og:type",
@@ -3993,85 +3894,12 @@
                           content: "/snsThumnail.png"
                       }), (0,
                       r.jsx)("link", {
-                          rel: "apple-touch-icon",
-                          sizes: "57x57",
-                          href: "/favicon/apple-icon-57x57.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "apple-touch-icon",
-                          sizes: "60x60",
-                          href: "/favicon/apple-icon-60x60.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "apple-touch-icon",
-                          sizes: "72x72",
-                          href: "/favicon/apple-icon-72x72.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "apple-touch-icon",
-                          sizes: "76x76",
-                          href: "/favicon/apple-icon-76x76.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "apple-touch-icon",
-                          sizes: "114x114",
-                          href: "/favicon/apple-icon-114x114.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "apple-touch-icon",
-                          sizes: "120x120",
-                          href: "/favicon/apple-icon-120x120.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "apple-touch-icon",
-                          sizes: "144x144",
-                          href: "/favicon/apple-icon-144x144.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "apple-touch-icon",
-                          sizes: "152x152",
-                          href: "/favicon/apple-icon-152x152.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "apple-touch-icon",
-                          sizes: "180x180",
-                          href: "/favicon/apple-icon-180x180.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "icon",
-                          type: "image/png",
-                          sizes: "192x192",
-                          href: "/favicon/android-icon-192x192.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "icon",
-                          type: "image/png",
-                          sizes: "32x32",
-                          href: "/favicon/favicon-32x32.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "icon",
-                          type: "image/png",
-                          sizes: "96x96",
-                          href: "/favicon/favicon-96x96.png"
-                      }), (0,
-                      r.jsx)("link", {
-                          rel: "icon",
-                          type: "image/png",
-                          sizes: "16x16",
-                          href: "/favicon/favicon-16x16.png"
-                      }), (0,
-                      r.jsx)("link", {
                           rel: "manifest",
                           href: "/favicon/manifest.json"
                       }), (0,
                       r.jsx)("meta", {
                           name: "msapplication-TileColor",
                           content: "#111"
-                      }), (0,
-                      r.jsx)("meta", {
-                          name: "msapplication-TileImage",
-                          content: "/favicon/ms-icon-144x144.png"
                       }), (0,
                       r.jsx)("meta", {
                           name: "theme-color",
@@ -4100,12 +3928,7 @@
                   r.jsx)("div", {
                       className: "thunmail_img",
                       children: null !== n && (0,
-                      r.jsx)(f(), {
-                          width: 1900,
-                          height: 950,
-                          alt: "project thunmail",
-                          src: n.url
-                      }, "thumnail" + n)
+                      r.jsx)
                   }), (0,
                   r.jsx)("div", {
                       id: "smooth-wrapper",
@@ -4116,8 +3939,8 @@
                       })
                   })]
               })
-          }
-          ;
+          };
+
           n(4248);
           let m = i.createContext({})
             , v = ({client: e, linkResolver: t, richTextComponents: n, internalLinkComponent: o, externalLinkComponent: a, children: s})=>{
@@ -4128,15 +3951,12 @@
                   internalLinkComponent: o,
                   externalLinkComponent: a
               }), [e, t, n, o, a]);
-              return (0,
-              r.jsx)(m.Provider, {
+              return (0, r.jsx)(m.Provider, {
                   value: l,
                   children: s
               })
-          }
-          ;
-          var g = n(4298)
-            , y = n.n(g);
+          };
+          var g = n(4298) , y = n.n(g);
           let w = e=>e.replace(/%3B/g, ";")
             , b = e=>{
               let t;
@@ -4222,7 +4042,7 @@
               }(e.mode);
               A(),
               e.beforeSend && (null == (t = window.va) || t.call(window, "beforeSend", e.beforeSend));
-              let r = "development" === n ? "https://cdn.vercel-insights.com/v1/script.debug.js" : "/_vercel/insights/script.js";
+              let r = "development" === n ? "https://cdn.vercel-insights.com/v1/script.debug.js" : "../../vercel/insights/script.js";
               if (document.head.querySelector(`script[src*="${r}"]`))
                   return;
               let i = document.createElement("script");
@@ -4232,8 +4052,7 @@
               i.setAttribute("data-sdkv", "0.1.11"),
               "development" === n && !1 === e.debug && i.setAttribute("data-debug", "false"),
               document.head.appendChild(i)
-          }
-          ;
+          };
           function E({beforeSend: e, debug: t=!0, mode: n="auto"}) {
               return (0,
               i.useEffect)(()=>{
@@ -4268,6 +4087,8 @@
               })
           }
       },
+
+
       8136: function() {},
       1447: function() {},
       4248: function() {},

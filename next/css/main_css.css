@@ -87,8 +87,8 @@ header {
     position: relative;
     font-size: 20px;
     line-height: 22px;
-    color: #fff;
-    mix-blend-mode: difference;
+    color: #000;
+    /* mix-blend-mode: difference; */
     font-weight: 500
 }
 
@@ -137,7 +137,7 @@ header .menu_section button:before {
     width: 5px;
     height: 5px;
     border-radius: 3px;
-    background-color: #fff;
+    background-color: #000;
     left: -9px;
     top: 2px;
     transform: scale(0);
@@ -666,6 +666,7 @@ header .menu_section button.active:before,header .menu_section button:hover:befo
 }
 
 .contents_wrap .work_detail.wd2 .section_container {
+    /* direction: rtl; */
     display: flex;
     width: 1300px;
     padding: 35px 40px;
@@ -1139,7 +1140,7 @@ footer {
     font-size: 20px;
     line-height: 24px;
     font-weight: 500;
-    height: 400px;
+    height: 300px;
     padding: 20px 40px 0;
     position: relative
 }
@@ -1320,8 +1321,8 @@ footer .ft_business {
 
     @supports(mix-blend-mode: difference) {
         .header {
-            color:#fff;
-            mix-blend-mode: difference
+            color: #000;
+            /* mix-blend-mode: difference */
         }
     }
 
@@ -1999,33 +2000,41 @@ footer .ft_business {
 @font-face {
     font-family: Neue Montreal;
     font-weight: 400;
-    src: local("Neue Montreal"),url(/fonts/PPNeueMontreal-Regular.woff) format("woff2");
+    src: local("Neue Montreal"),
+    url(../../fonts/PPNeueMontreal-Regular.woff) format("woff2");
     font-display: swap
 }
 
 @font-face {
     font-family: Neue Montreal;
     font-weight: 500;
-    src: local("Neue Montreal"),url(/fonts/PPNeueMontreal-Medium.woff) format("woff2");
+    src: local("Neue Montreal"),
+    url(../../fonts/PPNeueMontreal-Medium.woff) format("woff2");
     font-display: swap
 }
 
-@font-face {
+/* @font-face {
     font-family: Pretendard;
     font-weight: 500;
-    src: local("Pretendard Medium"),url(/fonts/woff2-subset/Pretendard-Medium.subset.woff2) format("woff2"),url(/fonts/woff-subset/Pretendard-Medium.subset.woff) format("woff");
+    src: local("Pretendard Medium"),
+    url(../../fonts/woff2-subset/Pretendard-Medium.subset.woff2) format("woff2"),
+    url(../../fonts/woff-subset/Pretendard-Medium.subset.woff) format("woff");
     font-display: swap
-}
+} */
 
 @font-face {
     font-family: Pretendard;
     font-weight: 400;
-    src: local("Pretendard Regular"),url(/fonts/woff2-subset/Pretendard-Regular.subset.woff2) format("woff2"),url(/fonts/woff-subset/Pretendard-Regular.subset.woff) format("woff");
+    src: local("Pretendard Regular"),
+    url(../../fonts/woff2-subset/Pretendard-Regular.subset.woff2) format("woff2"),
+    url(../../fonts/woff-subset/Pretendard-Regular.subset.woff) format("woff");
     font-display: swap
 }
 
 @font-face {
     font-family: bigdailyshort-semilightitalic;
-    src: local("bigdailyshort-semilightitalic"),url(/fonts/bigdailyshortweb-semilightitalic.woff) format("woff"),url(/fonts/bigdailyshortweb-semilightitalic.woff2) format("woff2");
+    src: local("bigdailyshort-semilightitalic"),
+    url(../../fonts/bigdailyshortweb-semilightitalic.woff) format("woff"),
+    url(../../fonts/bigdailyshortweb-semilightitalic.woff2) format("woff2");
     font-display: swap
 }

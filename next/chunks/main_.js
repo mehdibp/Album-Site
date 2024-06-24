@@ -23,7 +23,7 @@ const data = {
             "order": "2022-12-05",
             "pr_title": "RETINOL MICROCONE PATCH",
             "brand": "ACROPASS",
-            "client": "RAPHAS",
+            "time": "RAPHAS",
             "execution": "세계 최초 레티놀 탑재 마이크로콘 제형의 전달 기술력을 지닌 제품으로 기존 레티놀이 지닌 흡수력 문제점을 해결, 새로운 전달 방식의 혁신성을 극대화하여 마이크로콘 패치의 NO1. 브랜드로 대표성을 선점/ 획득하기 위한 TVC 캠페인",
             "excution2": "Strategy \u0026 Creative \u0026 Media",
             "images": [

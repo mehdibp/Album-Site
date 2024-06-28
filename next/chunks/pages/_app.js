@@ -43,15 +43,6 @@
               xr: function() { return tA  }
           });
 
-/*!
-   * GSAP 3.11.4
-   * https://greensock.com
-   *
-   * @license Copyright 2008-2022, GreenSock. All rights reserved.
-   * Subject to the terms at https://greensock.com/standard-license or for
-   * Club GreenSock members, the agreement issued with that membership.
-   * @author: Jack Doyle, jack@greensock.com
-  */
  
           var o, a, s, l, u, c, f, h, d, p, _, m, v, g, y, w, b, T, S, R, A, x, E, k, N, M, C = {
               autoSleep: 120,
@@ -3264,54 +3255,57 @@
           });
           var r = n(5893);
           function i(e) {
-              return (0,
-              r.jsxs)("footer", {
+              return (0, r.jsxs)("footer", {
                   className: "footer",
-                  children: [(0,
-                  r.jsx)("div", {
+                  children: [(0, r.jsx)("div", {
                       className: "ft_deco_line"
-                  }), (0,
-                  r.jsxs)("div", {
+                  }), (0, r.jsxs)("div", {
                       className: "ft_info_section",
-                      children: [(0,
-                      r.jsxs)("div", {
+                      children: [(0, r.jsxs)("div", {
                           className: "ft_info_item",
-                          children: ["Physics school album"]
-                      }), (0,
-                      r.jsxs)("div", {
+                          children: [
+                            (0, r.jsx)("i", {className:"fa fa-telegram"}),
+                            (0, r.jsx)("a", {className: "", children: " t.me/phys_school", href: "https://t.me/physics_school1400" }),
+                            (0, r.jsx)("br", {}),
+                            (0, r.jsx)("i", {className:"fa fa-instagram"}),
+                            (0, r.jsx)("a", {className: "", children: " sphys_school_iasbs", href: "https://instagram.com/phys_school_iasbs?utm_medium=copy_link" })
+                        ]
+                    //   }), (0, r.jsxs)("div", {
+                    //       className: "ft_info_item",
+                    //       children: ["10F, 509, Dosan-daero, SD biosensor ", 
+                    //         (0, r.jsx)("br", {}), "Gangnam-gu, ", 
+                    //         (0, r.jsx)("br", {}), "Seoul, Korea"]
+                      }), 
+                      (0, r.jsxs)("div", {
                           className: "ft_info_item",
-                          children: ["10F, 509, Dosan-daero, SD biosensor ", (0,
-                          r.jsx)("br", {}), "Gangnam-gu, ", (0,
-                          r.jsx)("br", {}), "Seoul, Korea"]
-                      }), (0,
-                      r.jsxs)("div", {
-                          className: "ft_info_item",
-                          children: ["soony@alcre.co.kr", (0,
-                          r.jsx)("br", {}), "+82 02 556 8335"]
+                          children: [
+                            (0, r.jsx)("i", {className:"fa fa-envelope"}),
+                            (0, r.jsx)("a", {className: "", children: " phys-school@iasbs.ac.ir", href: "mailto:phys-school@iasbs.ac.ir" }),
+                            (0, r.jsx)("br", {}),
+                            (0, r.jsx)("i", {className:"fa fa-phone"}),
+                            (0, r.jsx)("a", {className: "", children: " (+98) 24 3315 2116", href: "tel:+98-24-3315-2116" })
+                            ]
                       })]
-                  }), (0,
-                  r.jsxs)("ul", {
-                      className: "ft_business",
-                      children: [(0,
-                      r.jsx)("li", {
-                          children: "TVCF"
-                      }), (0,
-                      r.jsx)("li", {
-                          children: "BRANDING"
-                      }), (0,
-                      r.jsx)("li", {
-                          children: "DIGITAL"
-                      }), (0,
-                      r.jsx)("li", {
-                          children: "ATL/BTL"
-                      })]
-                  }), (0,
-                  r.jsx)("div", {
+                  }), 
+                //   (0, r.jsxs)("ul", {
+                //       className: "ft_business",
+                //       children: [(0, r.jsx)("li", {
+                //           children: "TVCF"
+                //       }), (0, r.jsx)("li", {
+                //           children: "BRANDING"
+                //       }), (0, r.jsx)("li", {
+                //           children: "DIGITAL"
+                //       }), (0, r.jsx)("li", {
+                //           children: "ATL/BTL"
+                //       })]
+                //   }), 
+                  (0, r.jsx)("div", {
                       className: "copyright",
-                      children: "\xa92023 aL, Co. All rights reserved"
+                      children: "Edited by mehdibakhshipoor (\xa92023 aL) "
                   })]
               })
           }
+
           n(7294)
       },
       2031: function(e, t, n) {

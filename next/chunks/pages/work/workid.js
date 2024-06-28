@@ -54,23 +54,19 @@
             //console.log(mm);
             
 
-            return (0, w.Z)("@@ACTIVE_ACHIVE", ()=>{ f ? _ && _.paused(!1) : _ && _.paused(!0), y(!f) }
-            , [f, _]),
-            (0, l.useEffect)(()=>{ _ && _.paused(!1), y(!1) }
-            , [N, _]),
+            return (0, w.Z)("@@ACTIVE_ACHIVE", ()=>{ f ? _ && _.paused(!1) : _ && _.paused(!0), y(!f) }, [f, _]),
+            (0, l.useEffect)(()=>{ _ && _.paused(!1), y(!1) }, [N, _]),
             (0, l.useLayoutEffect)(()=>{
                 window.innerWidth <= 900 && (b(!0),
                 document.querySelector(".wd1 .back_img").style.height = window.innerHeight + "px")
-            }
-            , []),
+            }, []),
             (0, l.useLayoutEffect)(()=>(t.map((e,i)=>{
                 e.id === m.workid && (S(e),
                 Z(i + 1),
                 C(t[i >= t.length - 1 ? 0 : i + 1]),
                 H(i >= t.length - 1 ? 0 : i + 1))
-            }),
-            ()=>{}
-            ), [N]),
+            }), ()=>{} ), [N]),
+
             (0, l.useEffect)(()=>{
                 let e = [];
                 if (window.scrollTo({
@@ -239,8 +235,7 @@
                     className: "work_detail top_info",
                     children: (0, s.jsxs)("div", {
                         className: "pr_top_section",
-                        children: [(0,
-                        s.jsx)("button", {
+                        children: [(0, s.jsx)("button", {
                             className: "default_bt back_bt",
                             onClick: ()=>{ (0, g.i)("http://127.0.0.1:5500/index.html", N) },
                             children: "Back to List"
@@ -248,8 +243,7 @@
                         (0, s.jsx)("div", { className: "deco_line" }), 
                         (0, s.jsxs)("div", {
                             className: "prt_item",
-                            children: ["(", (0,
-                            g.h)(29-T), ")"]
+                            children: ["(", (0, g.h)(P.id), ")"]
                         }), 
                         (0, s.jsx)("div", { className: "deco_line" }), 
                         (0, s.jsx)("div", {
@@ -267,7 +261,7 @@
                         tabIndex: "0",
                         children: [(0, s.jsxs)("div", {
                             className: "pr_num_mobile",
-                            children: ["(", (0, g.h)(T), ")"]
+                            children: ["(", (0, g.h)(P.id), ")"]
                         }), (0, s.jsx)("h2", {
                             className: "pr_title",
                             children: P.data.pr_title
@@ -298,7 +292,8 @@
                         tabIndex: "1",
                         children: (0, s.jsxs)("div", {
                             className: "section_container",
-                            children: [(0, s.jsx)("div", {
+                            children: [
+                            (0, s.jsx)("div", {
                                 className: "pr_desc",
                                 children: P.data.description && P.data.description.split("\n").map((e,i)=>(0, s.jsx)
                                 ("p", { children: e }, "de" + i))
@@ -327,7 +322,7 @@
                                     }), 
                                     (0, s.jsx)("div", {
                                         className: "pri_contents",
-                                        children: P.data.time
+                                        children: P.slugs[0] + "-" + P.slugs[1].slice(12,15)
                                     })]
                                 }, "pir2" + P.id), 
                                 (0, s.jsxs)("div", {
@@ -336,14 +331,18 @@
                                     (0, s.jsx)("div", { className: "deco_line" }), 
                                     (0, s.jsx)("div", {
                                         className: "pri_title",
-                                        children: "Execution"
+                                        children: "Schedule"
                                     }), 
-                                    (0, s.jsx)("a", {
+                                    (0, s.jsx)("div", {
                                         className: "pri_contents",
-                                        children: P.data.execution,
-                                        href: P.data.href
+                                        children: [
+                                        (0, s.jsxs)("a", {
+                                            children: P.data.execution,
+                                            href: P.href[0]}),
+                                        ]
                                         
-                                    }), 
+                                    }),
+                                    
                                     (0, s.jsx)("div", { className: "deco_line bottom_line" })]
                                 }, "pir3" + P.id)
                             ] })]

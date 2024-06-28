@@ -680,7 +680,8 @@ header .menu_section button.active:before,header .menu_section button:hover:befo
 }
 
 .contents_wrap .work_detail.wd2 .pr_desc {
-    min-height: 300px
+    min-height: 300px;
+    text-align: justify;
 }
 
 .contents_wrap .work_detail.wd2 .pr_info_items .pri_item {
@@ -1140,7 +1141,7 @@ footer {
     font-size: 20px;
     line-height: 24px;
     font-weight: 500;
-    height: 300px;
+    height: 200px;
     padding: 20px 40px 0;
     position: relative
 }
@@ -1158,6 +1159,11 @@ footer .ft_info_section {
     display: flex;
     justify-content: space-between;
     font-weight: 500
+}
+
+footer .ft_info_section i{
+    font-size: large;
+    padding-right: 5px;
 }
 
 footer .copyright {
@@ -1795,7 +1801,7 @@ footer .ft_business {
         line-height: 20px;
         flex-direction: column-reverse;
         padding: 0;
-        gap: 10px
+        gap: 20px
     }
 
     .contents_wrap .work_detail.wd2 .section_container .pr_desc {

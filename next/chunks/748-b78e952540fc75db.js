@@ -219,10 +219,9 @@
                             className: "wc_item " + (P.asPath.indexOf(e.id) >= 0 ? "active" : ""),
                             onMouseOver: ()=>{ a(t) } ,
                             onClick: ()=>{ b(t) } ,
-                            children: [(0,
-                            r.jsx)("div", {
+                            children: [(0, r.jsx)("div", {
                                 className: "wc_num",
-                                children: "(" + (t < 9 ? "0" + (t + 1) : t + 1) + ")"
+                                children: "(" + e.id + ")"
                             }), (0, r.jsx)("div", {
                                 className: "wc_title",
                                 children: e.data.pr_title

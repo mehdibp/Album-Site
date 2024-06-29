@@ -1,4 +1,3 @@
-//import { ExportID } from '../index.js'
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([[606], {
 
     7775: function(e, i, t) {
@@ -30,14 +29,18 @@
           , w = t(10)
           , x = t(271)
           , v = t(4480);
-
+          
 
         d.ZP.registerPlugin(a.ScrollTrigger, n.ScrollSmoother, r.SplitText, _.TextPlugin);
         var j = !0;
 
         function N(e) {
             let i, {workItems: t, params: m} = e; 
-		    //m = {workid: ExportID().ID};
+
+            if (localStorage.getItem("reload") == 0){ location.reload(); localStorage.setItem("reload", 1); }
+		    m = {workid: localStorage.getItem("ID")};
+            // localStorage.removeItem("ID")
+
 	        let N = (0, u.useRouter)(), 
             [_,j] = (0, l.useState)(null), 
             [f,y] = (0, l.useState)(!1), 
@@ -49,9 +52,6 @@
             [I,A] = (0, v.FV)(p.tV), 
             [O,V] = (0, l.useState)(null), 
             [X,B] = (0, l.useState)(null);
-
-            //let mm = {workid: ExportID().ID};
-            //console.log(mm);
             
 
             return (0, w.Z)("@@ACTIVE_ACHIVE", ()=>{ f ? _ && _.paused(!1) : _ && _.paused(!0), y(!f) }, [f, _]),
@@ -383,7 +383,7 @@
                                     alt: "video thumnail image"
                                 })]
 
-                            }, "video" + i, console.log(e.video_url))), 
+                            }, "video" + i)), 
                             
                             P.data.images.filter((e,i)=>i > 0).map((e,i)=>void 0 === e.image.dimensions ? (0, s.jsx) (s.Fragment, {}): 
                             (0, s.jsx)("div", {

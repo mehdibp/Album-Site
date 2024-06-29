@@ -117,16 +117,14 @@
                     y: e.clientY,
                     power: (e.movementX * e.movementX + e.movementY * e.movementY) / 4
                 }
-            }
-            ;
-            (0,
-            o.useEffect)(()=>{
+            };
+            (0, o.useEffect)(()=>{
                 if (null !== f) {
                     let e = h.current;
                     s.ZP.to(e.mesh.material.uniforms.uClickProcess, .6, {
                         value: 1,
                         ease: a.Aq.easeOut,
-                        onComplete: ()=>{ k.push("http://127.0.0.1:5500/work/" + u[f].id + ".html") }
+                        onComplete: ()=>{ k.push("http://127.0.0.1:5500/work/28.html") }     // + u[f].id
                     }),
                     s.ZP.to(".top_info .pr_top_section", .2, {
                         y: -100,
@@ -202,7 +200,9 @@
                     let t = s.ZP.timeline({ delay: .4 });
                     t.to(".thunmail_img", .2, { opacity: 1 })
                 } else
-                    (0, c.i)("http://127.0.0.1:5500/work/" + t[e].id + ".html", P);
+                    (0, c.i)("http://127.0.0.1:5500/work/28.html", P); // + t[e].id
+                    localStorage.setItem("ID", t[e].id );
+                    localStorage.setItem("reload", 0)
                 n && n.scrollTo(0)
             };
 
@@ -216,9 +216,9 @@
                         className: "work_archive_items " + (p ? "click_block" : ""),
                         onMouseLeave: ()=>{ a(null) },
                         children: t.map((e,t)=>(0, r.jsxs)("div", {
-                            className: "wc_item " + (P.asPath.indexOf(e.id) >= 0 ? "active" : ""),
-                            onMouseOver: ()=>{ a(t) } ,
-                            onClick: ()=>{ b(t) } ,
+                            className: "wc_item " + (e.id == localStorage.getItem("ID") ? "active" : ""),
+                            onMouseOver: ()=>{ a(t) },
+                            onClick: ()=>{ b(t) },
                             children: [(0, r.jsx)("div", {
                                 className: "wc_num",
                                 children: "(" + e.id + "th)"

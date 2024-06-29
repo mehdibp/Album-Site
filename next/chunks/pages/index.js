@@ -1,4 +1,3 @@
-// let globalVariableID = { ID: '0' };
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([[405], {
 
     
@@ -843,15 +842,14 @@
                     t.to(".thunmail_img", .2, {  opacity: 1 }),
 
                     setTimeout(()=>{
-                        d.push("http://127.0.0.1:5500/work/" + i[ee].id + ".html")
+                        d.push("http://127.0.0.1:5500/work/28.html")
                     }, 800)
 
                 } else
                     document.querySelector(".contents_wrap").removeEventListener("scroll", Y),
-                    (0, C.i)("http://127.0.0.1:5500/work/" + i[ee].id + ".html", d)
-                    
-                    // globalVariableID = { ID: i[ee].id };      // Global Variable ID
-                    // console.log(globalVariableID)
+                    (0, C.i)("http://127.0.0.1:5500/work/28.html", d)
+                       
+                    localStorage.setItem( "ID" , i[ee].id );    // Global Variable ID
                 
             };
 
@@ -1048,5 +1046,3 @@ function(e) {
 
 ]);
 
-// function ExportID() { return globalVariableID }
-// export {ExportID};

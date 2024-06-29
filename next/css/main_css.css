@@ -238,7 +238,8 @@ header .menu_section button.active:before,header .menu_section button:hover:befo
 }
 
 .archive_section .work_archive_items .wc_item .wc_num {
-    width: 8%
+    /* width: 8%; */
+    flex: 0.25;
 }
 
 .archive_section .work_archive_items .wc_item .wc_title {

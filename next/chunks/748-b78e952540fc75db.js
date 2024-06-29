@@ -221,10 +221,10 @@
                             onClick: ()=>{ b(t) } ,
                             children: [(0, r.jsx)("div", {
                                 className: "wc_num",
-                                children: "(" + e.id + ")"
+                                children: "(" + e.id + "th)"
                             }), (0, r.jsx)("div", {
                                 className: "wc_title",
-                                children: e.data.pr_title
+                                children: e.data.chair
                             }), (0, r.jsx)("div", {
                                 className: "wc_client",
                                 children: e.data.time

@@ -356,7 +356,7 @@
                         children: (0, s.jsxs)("div", {
                             className: "wd_work_items",
                             children: [
-                            P.data.video_items.filter(e=>null !== e.video_url).map((e,i)=>(0, s.jsxs)("div", {
+                            P.data.video_items.filter(e=>null !== e.video_url && (e.video_url != "")).map((e,i)=>(0, s.jsxs)("div", {
                                 className: "work_item video_item vi" + i,
                                 onClick: ()=>{
                                     V(e.video_url),
@@ -365,7 +365,7 @@
                                 onMouseOver: ()=>{ k || d.ZP.to(".video_item.vi" + i + " img", .5, { scale: 1.2 }) },
                                 onMouseOut:  ()=>{ k || d.ZP.to(".video_item.vi" + i + " img", .5, { scale: 1 }) },
                                 children: [
-                                (0, s.jsx)("div", { className: "deco_rec dr1" }), 
+                                (0, s.jsx)("div", { className: "deco_rec dr1" }),   // Zaviye GhaemHaye Kenar Pic_video
                                 (0, s.jsx)("div", { className: "deco_rec dr2" }), 
                                 (0, s.jsx)("div", { className: "deco_rec dr3" }), 
                                 (0, s.jsx)("div", { className: "deco_rec dr4" }), 
@@ -383,7 +383,7 @@
                                     alt: "video thumnail image"
                                 })]
 
-                            }, "video" + i)), 
+                            }, "video" + i, console.log(e.video_url))), 
                             
                             P.data.images.filter((e,i)=>i > 0).map((e,i)=>void 0 === e.image.dimensions ? (0, s.jsx) (s.Fragment, {}): 
                             (0, s.jsx)("div", {

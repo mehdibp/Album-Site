@@ -124,7 +124,7 @@
                     s.ZP.to(e.mesh.material.uniforms.uClickProcess, .6, {
                         value: 1,
                         ease: a.Aq.easeOut,
-                        onComplete: ()=>{ k.push("http://127.0.0.1:5500/work/28.html") }     // + u[f].id
+                        onComplete: ()=>{ k.push("http://127.0.0.1:5500/work/Album-of-year.html") }     // + u[f].id
                     }),
                     s.ZP.to(".top_info .pr_top_section", .2, {
                         y: -100,
@@ -200,7 +200,7 @@
                     let t = s.ZP.timeline({ delay: .4 });
                     t.to(".thunmail_img", .2, { opacity: 1 })
                 } else
-                    (0, c.i)("http://127.0.0.1:5500/work/28.html", P); // + t[e].id
+                    (0, c.i)("http://127.0.0.1:5500/work/Album-of-year.html", P); // + t[e].id
                     localStorage.setItem("ID", t[e].id );
                     localStorage.setItem("reload", 0)
                 n && n.scrollTo(0)

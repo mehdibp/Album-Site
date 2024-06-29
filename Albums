@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charSet="utf-8"/>
+        <title> Physics School Album </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
+        <meta name="next-head-count" content="27"/>
+
+        <link rel="icon" type="image/png" href="img/logo.png" />
+        <link rel="stylesheet" href="./next/css/main_css.css" data-n-g=""/>
+
+        <noscript data-n-css=""></noscript>
+        <script src="./next/chunks/webpack.js" defer=""></script>
+        <script src="./next/chunks/framework.js" defer=""></script>
+        <script src="./next/chunks/main.js" defer=""></script>
+        <script src="./next/chunks/pages/_app.js" defer=""></script>
+        <script src="./next/chunks/fb7d5399-68c733d999bc5b3b.js" defer=""></script>
+        <script src="./next/chunks/689-e2afd42a32b2b56b.js" defer=""></script>
+        <script src="./next/chunks/748-b78e952540fc75db.js" defer=""></script>
+        <script src="./next/chunks/873-271227ee777cd4a0.js" defer=""></script>
+        <script src="./next/chunks/pages/index.js" defer=""></script>
+    </head>
+
+    <body>
+        <div id="__next">
+            <header class="header introHeader">
+                <div class="logo_section">
+                    <img alt="logo" src="./img/logo.png" width="35" height="30" decoding="async" data-nimg="1" class="logo_white" loading="lazy" style="color:transparent;height:auto"/>
+                </div>
+                <nav class="menu_section">
+                    <!-- <button class=""> aBout </button> -->
+                    <button> Archive </button>
+                </nav>
+            </header>
+
+            <div class="move_back">
+                <svg id="menuMask" class="transition" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path class="path" dur="10s" fill="#fff" vector-effect="non-scaling-stroke" d="M 0 100 V 100 Q 50 100 100 100 V 100 z"></path>
+                </svg>
+            </div>
+
+            <div id="smooth-wrapper">
+                <main class="contents_wrap">
+                    <div class="main" style="height:inherit">
+                        <div class="work_top_info">
+                            <h2 class="work_title"> 26th Special School on Topics in Physic </h2>
+                            <div class="work_index_tl">
+                                <span class="work_index"></span> 9
+                            </div>
+                        </div>
+
+                        <div class="pr_info ">
+                            <div class="pr_title">
+                                <h2 class="pr_title_t"> 26th Special School on Topics in Physic </h2>
+                                <div class="pr_subinfo">
+                                    <button class="back_bt"> Back to List </button>
+                                    <div class="pr_bar hide_bar"></div>
+                                    <div class="pr_num pr_detail"> (03) </div>
+                                    <div class="pr_bar"></div>
+                                    <div class="pr_client pr_detail"> Summer-2021 </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="scroll_info load_intro">
+                            <div class="scroll_info_tl intro_duration">
+                                <div class="since_info"> 2016 </div>
+                                <div class="si_item" style="height:30px"></div>
+                                <div class="si_item" style="height:29.891924656275794px"></div>
+                                <div class="si_item" style="height:29.568477310431255px"></div>
+                                <div class="si_item" style="height:29.031988408004967px"></div>
+                                <div class="si_item" style="height:28.286323363832526px"></div>
+                                <div class="si_item" style="height:27.336854711644072px"></div>
+                                <div class="si_item" style="height:26.190423394835644px"></div>
+                                <div class="si_item" style="height:24.855289477315267px"></div>
+                                <div class="si_item" style="height:23.341072629553185px"></div>
+                                <div class="si_item" style="height:21.658682818635732px"></div>
+                                <div class="si_item" style="height:19.820241701702443px"></div>
+                                <div class="si_item" style="height:19px"></div>
+                                <div class="si_item" style="height:19px"></div>
+                            </div>
+                        </div>
+
+                        <div class="company_info load_intro"> Physics School Album </div>
+
+                        <div class="mobile_intro" style="height:inherit">
+                            <div class="intro_container">
+                                <div class="main_title">
+                                    Physics <br> School <br>Album
+                                </div>
+                                <div class="scroll_down_info"> please scroll down </div>
+                            </div>
+                        </div>
+
+                        <div class="scrolldown_info">
+                            <svg width="40px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5">
+                                <path id="wheel" d="M123.359,79.775l0,72.843" style="fill:none;stroke:#181818;stroke-width:20px"></path>
+                                <path id="mouse" d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z" style="fill:none;stroke:#181818;stroke-width:20px"></path>
+                            </svg>
+                            please scroll
+                        </div>
+
+                        <div id="smooth-content">
+                            <div class="mobile_intro_space" style="height:800px"></div>
+                            <div class="work_wrap">
+                                <div class="work_items click_block">
+                                    <div id="wk0" class="work_item"></div>
+                                    <div id="wk1" class="work_item"></div>
+                                    <div id="wk2" class="work_item"></div>
+                                    <div id="wk3" class="work_item"></div>
+                                    <div id="wk4" class="work_item"></div>
+                                    <div id="wk5" class="work_item"></div>
+                                    <div id="wk6" class="work_item"></div>
+                                    <div id="wk7" class="work_item"></div>
+                                    <div id="wk8" class="work_item"></div>
+                                    <div id="wk9" class="work_item"></div>
+                                    <div id="wk10" class="work_item"></div>
+                                    <div id="wk11" class="work_item"></div>
+                                    <div id="wk12" class="work_item"></div>
+                                    <div id="wk13" class="work_item"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="app_canvas">  <canvas id="canvas" width="100%" height="100%"></canvas>  </div>
+
+                    </div>
+                </main>
+            </div>
+
+        </div>
+
+
+
+        <!-- <script src="./next/chunks/main.js"></script> -->
+        <!-- type="application/json" -->
+        <script id="__NEXT_DATA__" type="application/json"> {
+
+            "props": {
+            "pageProps": {
+            "workItems": [
+                {
+                    "id": "28",
+                    "uid": null,
+                    "url": "/work",
+                    "type": "work",
+                    "href": "",
+                    "tags": [ ],
+                    "first_publication_date": "2023-07-08",
+                    "last_publication_date":  "2023-07-13",
+                    "slugs": [ "1402-04-17", "1402-04-22" ],
+                    "linked_documents": [ ],
+                    "lang": "en",
+                    "alternate_languages": [ ],
+                    "data": {
+                        "order": "2023-07-08",
+                        "pr_title": "28th Special School on Topics in Physic",
+                        "chair": "Mohannad D. Niry",
+                        "time":  "Summer 2023",
+                        "description": "Discription",
+                        "execution": "",
+                        "images": [
+                            { "image": {
+                                    "dimensions": { "width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "img/28-0.JPG",
+                                    "id": "ZCPWaRAAAB8AwkCf",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            },
+                            { "image": {
+                                    "dimensions": { "width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "28-1.JPG",
+                                    "id": "ZCPWaRAAAB8AwkCf",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            }
+                        ],
+                        "video_items": [
+                            { "video_image": {
+                                    "dimensions": { "width": 2400, "height": 1223 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "",
+                                    "id": "ZCPWZxAAACMAwkCa",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                },
+                                "video_title": "28th Special School on Topics in Physic",
+                                "video_url": "28"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "25",
+                    "uid": null,
+                    "url": "/work",
+                    "type": "work",
+                    "href": "",
+                    "tags": [ ],
+                    "first_publication_date": "2020-02-01",
+                    "last_publication_date":  "2020-01-05",
+                    "slugs": [ "1398-11-12" , "1398-11-16" ],
+                    "linked_documents": [ ],
+                    "lang": "en",
+                    "alternate_languages": [ ],
+                    "data": {
+                        "order": "2020-02-01",
+                        "pr_title": "25th Special School on Topics in Physic",
+                        "chair": "Alireza Moradi",
+                        "time": "Winter 2020",
+                        "description": "Description",
+                        "execution": "",
+                        "images": [
+                            { "image": {
+                                    "dimensions": { "width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "img/25-0.JPG",
+                                    "id": "ZCbrghAAAB8Ax2Sm",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            },
+                            { "image": {
+                                    "dimensions": { "width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "25-1.JPG",
+                                    "id": "ZAcQnhAAABWUUNpt",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            }
+                        ],
+                        "video_items": [
+                            { "video_image": {
+                                    "dimensions": { "width": 2400, "height": 1223 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "",
+                                    "id": "ZAcQmRAAAAaBUNox",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                },
+                                "video_title": "25th Special School on Topics in Physic",
+                                "video_url": "25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "24",
+                    "uid": null,
+                    "url": "/work",
+                    "type": "work",
+                    "href": "",
+                    "tags": [ ],
+                    "first_publication_date": "2019-02-02",
+                    "last_publication_date":  "2019-02-06",
+                    "slugs": [ "1397-11-13" , "1397-11-17" ],
+                    "linked_documents": [ ],
+                    "lang": "en",
+                    "alternate_languages": [ ],
+                    "data": {
+                        "order": "2019-02-02",
+                        "pr_title": "24th Special School on Topics in Physic",
+                        "chair": "Alireza Moradi",
+                        "time":  "Winter 2019",
+                        "description": "Description",
+                        "execution": "",
+                        "images": [
+                            { "image": {
+                                    "dimensions": { "width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "img/24-0.JPG",
+                                    "id": "ZAcQnRAAABWUUNpg",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            },
+                            { "image": {
+                                    "dimensions": { "width": 2400, "height": 1412 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "24-1.JPG",
+                                    "id": "ZAcQkhAAABWUUNnZ",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            }
+                        ],
+                        "video_items": [
+                            { "video_image": {
+                                    "dimensions": { "width": 2400, "height": 1223 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "https://images.prismic.io/alcre/a62d4228-a68a-4ccc-8269-3be502d10458_pr25_video.JPG?auto=compress,format",
+                                    "id": "ZAcQlRAAACkAUNn9",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                },
+                                "video_title": "24th Special School on Topics in Physic",
+                                "video_url": "24"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "23",
+                    "uid": null,
+                    "url": "/work",
+                    "type": "work",
+                    "href": "",
+                    "tags": [  ],
+                    "first_publication_date": "2018-02-03",
+                    "last_publication_date":  "2018-01-08",
+                    "slugs": [ "1396-11-14" , "1396-11-19"],
+                    "linked_documents": [ ],
+                    "lang": "en",
+                    "alternate_languages": [ ],
+                    "data": {
+                        "order": "2018-02-03",
+                        "pr_title": "23th Special School on Topics in Physic",
+                        "chair": "Faegheh Hajizadeh",
+                        "time":  "Winter 2018",
+                        "description": "Description",
+                        "execution": "",
+                        "images": [
+                            { "image": {
+                                    "dimensions": { "width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "img/23-0.JPG",
+                                    "id": "ZCPWZBAAAB8AwkCS",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            },
+                            { "image": {
+                                    "dimensions": { "width": 2400, "height": 1306 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "23-1.JPG",
+                                    "id": "ZCPWaRAAACEAwkCe",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            }
+                        ],
+                        "video_items": [
+                            { "video_image": {
+                                    "dimensions": { "width": 2400, "height": 1223 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "",
+                                    "id": "ZCPWaRAAACMAwkCd",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                },
+                                "video_title": "23th Special School on Topics in Physic",
+                                "video_url": "23"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "22",
+                    "uid": null,
+                    "url": "/work",
+                    "type": "work",
+                    "href": "",
+                    "tags": [ ],
+                    "first_publication_date": "2017-02-09",
+                    "last_publication_date":  "2017-02-15",
+                    "slugs": [ "1395-11-21" , "1395-11-27" ],
+                    "linked_documents": [ ],
+                    "lang": "en",
+                    "alternate_languages": [ ],
+                    "data": {
+                        "order": "2017-02-09",
+                        "pr_title": "22th Special School on Topics in Physic",
+                        "chair": "Jafar Mostafavi Amjad",
+                        "time":  "Winter 2017",
+                        "description": "Description",
+                        "excution2": "",
+                        "images": [
+                            { "image": {
+                                    "dimensions": { "width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "img/22-0.JPG",
+                                    "id": "ZBx0thAAACIAo1MH",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            },
+                            { "image": {
+                                    "dimensions": { "width": 2400, "height": 1412 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "22-1.JPG",
+                                    "id": "ZAcQnBAAAAaBUNpZ",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            }
+                        ],
+                        "video_items": [
+                            { "video_image": {
+                                    "dimensions": { "width": 2400, "height": 1223 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "https://images.prismic.io/alcre/66138b57-5dee-4459-9eb7-3f09182e5975_pr27_video.JPG?auto=compress,format",
+                                    "id": "ZAcQlxAAAAaBUNoU",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                },
+                                "video_title": "22th Special School on Topics in Physic",
+                                "video_url": "22"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "21",
+                    "uid": null,    
+                    "url": "/work",
+                    "type": "work",
+                    "href": "",
+                    "tags": [],
+                    "first_publication_date": "2016-02-13",
+                    "last_publication_date":  "2016-02-18",
+                    "slugs": [ "1394-11-24" , "1394-11-29" ],
+                    "linked_documents": [],
+                    "lang": "en",
+                    "alternate_languages": [ ],
+                    "data": {
+                        "order": "2016-02-13",
+                        "pr_title": "21th Special School on Topics in Physic",
+                        "chair": "Shahpoor Saeidian",
+                        "time":  "Winter 2016",
+                        "description": "Description",
+                        "excution2": "",
+                        "images": [
+                            { "image": {
+                                    "dimensions": { "width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "img/21-0.JPG",
+                                    "id": "ZAcQnhAAABWUUNpr",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                } },
+                            { "image": {
+                                    "dimensions": {"width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "21-1.JPG",
+                                    "id": "ZCbiVBAAACMAx1KS",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                } }
+                        ],
+                        "video_items": [
+                            { "video_image": {
+                                    "dimensions": { "width": 2400, "height": 1223 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "",
+                                    "id": "ZAcQoBAAACkAUNqE",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                },
+                                "video_title": "21th Special School on Topics in Physic",
+                                "video_url": "21"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "20",
+                    "uid": null,
+                    "url": "/work",
+                    "type": "work",
+                    "href": "",
+                    "tags": [ ],
+                    "first_publication_date": "2015-02-14",
+                    "last_publication_date":  "2015-02-18",
+                    "slugs": [ "1393-11-25" , "1393-11-29" ],
+                    "linked_documents": [ ],
+                    "lang": "en",
+                    "alternate_languages": [ ],
+                    "data": {
+                        "order": "2015-02-14",
+                        "pr_title": "20th Special School on Topics in Physic",
+                        "chair": "Shahpoor Saeidian",
+                        "time":  "Winter 2015",
+                        "description": "Description",
+                        "execution": "",
+                        "images": [
+                            { "image": {
+                                    "dimensions": { "width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "img/20-0.JPG",
+                                    "id": "ZC64NhAAAB8A09kR",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            },
+                            { "image": {
+                                    "dimensions": { "width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "20-1.JPG",
+                                    "id": "ZCPWaRAAAB8AwkCf",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            }
+                        ],
+                        "video_items": [
+                            { "video_image": {
+                                    "dimensions": { "width": 2400, "height": 1223 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "https://images.prismic.io/alcre/5e4c3122-6d73-470d-8da6-82a6c7f3a7c1_pr32_video.JPG?auto=compress,format",
+                                    "id": "ZCPWZxAAACMAwkCa",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                },
+                                "video_title": "27th Special School on Topics in Physic",
+                                "video_url": "27"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "11",
+                    "uid": null,
+                    "url": "/work",
+                    "type": "work",
+                    "href": "",
+                    "tags": [  ],
+                    "first_publication_date": "2014-02-05",
+                    "last_publication_date":  "2014-02-10",
+                    "slugs": [ "1392-11-03" ],
+                    "linked_documents": [ ],
+                    "lang": "en",
+                    "alternate_languages": [ ],
+                    "data": {
+                        "order": "2014-02-30",
+                        "pr_title": "19th Special School on Topics in Physic",
+                        "chair": "Someone",
+                        "time":  "Winter 2014",
+                        "description": "Description",
+                        "execution": "",
+                        "images": [
+                            { "image": {
+                                    "dimensions": { "width": 1900, "height": 950 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "img/test6.JPG",
+                                    "id": "ZAcQnhAAACgAUNpu",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            },
+                            { "image": {
+                                    "dimensions": { "width": 2400, "height": 1243 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "test6.JPG",
+                                    "id": "ZAcQnBAAAAaBUNpW",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                }
+                            }
+                        ],
+                        "video_items": [
+                            { "video_image": {
+                                    "dimensions": { "width": 2400, "height": 1223 },
+                                    "alt": null,
+                                    "copyright": null,
+                                    "url": "",
+                                    "id": "ZAcQlhAAABWUUNoO",
+                                    "edit": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "zoom": 1,
+                                        "background": "#fff"
+                                    }
+                                },
+                                "video_title": "26th Special School on Topics in Physic",
+                                "video_url": "26"
+                            }
+                        ]
+                    }
+                }
+                
+            
+            ]
+
+            },
+
+            "__N_SSG": true
+            },
+
+
+            "page": "/",
+            "query": { },
+            "buildId": "TzigLA1rOnhqG85w71yZa",
+            "isFallback": false,
+            "gsp": true,
+            "scriptLoader": [ ]
+
+            }</script>
+    </body>
+    </html>

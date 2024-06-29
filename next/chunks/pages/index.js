@@ -842,12 +842,12 @@
                     t.to(".thunmail_img", .2, {  opacity: 1 }),
 
                     setTimeout(()=>{
-                        d.push("http://127.0.0.1:5500/work/28.html")
+                        d.push("http://127.0.0.1:5500/work/Album-of-year.html")
                     }, 800)
 
                 } else
                     document.querySelector(".contents_wrap").removeEventListener("scroll", Y),
-                    (0, C.i)("http://127.0.0.1:5500/work/28.html", d)
+                    (0, C.i)("http://127.0.0.1:5500/work/Album-of-year.html", d)
                        
                     localStorage.setItem( "ID" , i[ee].id );    // Global Variable ID
                 

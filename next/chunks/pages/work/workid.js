@@ -237,7 +237,7 @@
                         className: "pr_top_section",
                         children: [(0, s.jsx)("button", {
                             className: "default_bt back_bt",
-                            onClick: ()=>{ (0, g.i)("http://127.0.0.1:5500/index.html", N) },
+                            onClick: ()=>{ (0, g.i)("http://127.0.0.1:5500/Albums.html", N) },
                             children: "Back to List"
                         }), 
                         (0, s.jsx)("div", { className: "deco_line" }), 

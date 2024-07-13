@@ -741,12 +741,8 @@
                             void 0 !== i[t] && (o.ZP.to(".pr_info .pr_num", 0, {
                                 text: "(" + (0, C.h)(t + 1) + ")"
                             }),
-                            o.ZP.to(".pr_info .pr_title_t", .2, {
-                                text: i[t].data.pr_title
-                            }),
-                            o.ZP.to(".pr_info .pr_client", 0, {
-                                text: i[t].data.time
-                            }),
+                            o.ZP.to(".pr_info .pr_title_t", .2, { text: i[t].data.pr_title }),
+                            o.ZP.to(".pr_info .pr_client", 0, { text: i[t].data.time }),
                             N(t),
                             v(!1))
                         }
@@ -767,12 +763,8 @@
                         x: -t.scrollTop(),
                         y:  t.scrollTop()
                     }),
-                    o.ZP.to(".pr_info .pr_title_t", .1, {
-                        text: i[e].data.pr_title
-                    }),
-                    o.ZP.to(".pr_info .pr_num", 0, {
-                        text: "(" + (0, C.h)(Number(e) + 1) + ")"
-                    }),
+                    o.ZP.to(".pr_info .pr_title_t", .1, { text: i[e].data.pr_title }),
+                    o.ZP.to(".pr_info .pr_num", 0, { text: "(" + (0, C.h)(Number(e) + 1) + ")" }),
                     c(e / i.length),
                     setTimeout(()=>{
                         D(!1),
@@ -811,23 +803,13 @@
             };
 
             (0, u.useEffect)(()=>{
-                null !== f && (o.ZP.to(".pr_info .pr_title_t", .2, {
-                    text: i[f].data.pr_title
-                }),
-                o.ZP.to(".pr_info .pr_num", 0, {
-                    text: "(" + (0, C.h)(f + 1) + ")"
-                }),
-                o.ZP.to(".pr_info .pr_client", 0, {
-                    text: i[f].data.time
-                }))
+                null !== f && (o.ZP.to(".pr_info .pr_title_t", .2, { text: i[f].data.pr_title }), //  i[f].data.pr_title.slice(0,2) + i[f].data.pr_title.slice(2,4).sup() + i[f].data.pr_title.slice(4,i[f].data.pr_title.length)  th above
+                o.ZP.to(".pr_info .pr_num", 0, { text: "(" + (0, C.h)(f + 1) + ")" }),
+                o.ZP.to(".pr_info .pr_client", 0, { text: i[f].data.time }))
             } , [f]),
             (0, u.useEffect)(()=>{
-                !p && f && (o.ZP.to(".pr_info .pr_title_t", .2, {
-                    text: i[f].data.pr_title
-                }),
-                o.ZP.to(".pr_info .pr_num", 0, {
-                    text: "(" + (0, C.h)(f + 1) + ")"
-                }))
+                !p && f && (o.ZP.to(".pr_info .pr_title_t", .2, { text: i[f].data.pr_title }),
+                o.ZP.to(".pr_info .pr_num", 0, { text: "(" + (0, C.h)(f + 1) + ")" }))
             } , [p]);
 
             let Q = ee=>{        // "e" means corent index clicked
@@ -841,9 +823,7 @@
                     let t = o.ZP.timeline({ delay: .2 });
                     t.to(".thunmail_img", .2, {  opacity: 1 }),
 
-                    setTimeout(()=>{
-                        d.push("http://127.0.0.1:5500/work/Album-of-year.html")
-                    }, 800)
+                    setTimeout(()=>{ d.push("http://127.0.0.1:5500/work/Album-of-year.html") }, 800)
 
                 } else
                     document.querySelector(".contents_wrap").removeEventListener("scroll", Y),
@@ -895,13 +875,14 @@
                                 })]
                             })]
                         })
-                    }), (0, r.jsx)("div", {
+                    }), 
+                    (0, r.jsx)("div", {
                         className: "scroll_info " + (F ? "" : "load_intro"),
                         children: (0, r.jsxs)("div", {
                             className: "scroll_info_tl intro_duration",
                             children: [(0, r.jsx)("div", {
                                 className: "since_info",
-                                children: 2016 + Math.floor(s * (Number(new Date().getFullYear()) % 2016))
+                                children: parseInt(i[i.length-1].first_publication_date.slice(0, 4)) + Math.floor(s * (Number(new Date().getFullYear()) % parseInt(i[i.length-1].first_publication_date.slice(0, 4))))  // parseInt(i[i.length-1].first_publication_date.slice(0, 4)) is 2004 the first time that we want to srart
                             }), i.length && i.map((e,t)=>{
                                 let n = 30 * Math.cos((t / i.length - s) * Math.PI);
                                 return (0, r.jsxs)(u.Fragment, {

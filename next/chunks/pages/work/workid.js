@@ -75,10 +75,8 @@
                     behavior: "instant"
                 }),
                 document.querySelector("#smooth-content").scrollTo(0, 0),
-                d.ZP.to(".pr_title", 0, {
-                    opacity: 1
-                }),
-                window.innerWidth > 900) {
+                d.ZP.to(".pr_title", 0, { opacity: 1 })
+                , window.innerWidth > 900) {
                     let e = new r.SplitText(".wd1 .pr_title",{
                         type: "chars,words",
                         wordDelimiter: "*"
